@@ -9,6 +9,8 @@
 <script src="script.js">
 </script>
 <body class="">
+
+<a href="signup.html"><button>Register</button></a>
 <div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"
 ></div>
 <main class="content-wrapper">
@@ -162,18 +164,41 @@
             </div>
             </div>
           </div>
+          <div class="card">
+            <div class="card-block">
+              <h2>Fun facts about Ryan Reynolds</h2>
+              <p class="social-buttons"><a href="https://www.buzzfeed.com/allisonwild/do-you-know-how-to-put-on-pants" title=""><span class="social-round-icon fa-icon"></span><strong>buzzfeed</strong></a></p>
+              <link rel= "stylesheet" href= "stylepage.css" >
+              <table id= "myTable" >
+              </table>
+              <br>
+              <div id= "page" >
+                <div id= "header" >
+                </div>
+                <div id= "content" >
+                <button type= "button" onclick= " append ()" id= "b1" > Append </button>
 
+                <button type= "button" onclick= " remove ()" id= "b4" > Remove</button>
+                <br>
+                <br>
+                <h2> Fun facts </h2>
+                <ul id= "list" >
+                </ul>
+                <p> You can see the changes here </p>
+
+                </div>
+                </div>
+              <script src= "scriptpage.js" ></script>
+            </div>
+          </div>
           <div class="card">
             <div class="card-block">
               <h2>Comment Section</h2>
 
-
-
 <form action="/action_page.php" id="usrform">
-  Name: <input type="text" name="usrname">
-
+  Name: <input type="text" name="usrname"><br><br>
+Comment:
 </form>
-<br>
 <textarea placeholder="Enter text here..." rows="4" cols="50" name="comment" form="usrform">
 </textarea>
 <br>
@@ -183,4 +208,5 @@
             </div>
           </div>
 
+</body>
 </html>
